@@ -1,0 +1,24 @@
+.ipad__inner-div {
+  height: 500px;
+}
+
+@media only screen and(max-width:600px) {
+  .ipad__img {
+    width: 350px;
+    padding-top: 30px;
+  }
+}
+
+@media only screen and(max-width:400px) {
+  .ipad__img {
+    width: 300px;
+    height: 400px;
+  }
+}
+
+@media only screen and(max-width:360px) {
+  .ipad__img {
+    width: 260px;
+    height: 380px;
+  }
+}

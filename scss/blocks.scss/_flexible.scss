@@ -1,0 +1,40 @@
+.flexible {
+  background-color: #f3eeee;
+  padding-top: 80px;
+}
+
+.w-200 {
+  margin-top: 30px;
+  max-width: 600px;
+  display: block;
+}
+
+.flexible__div {
+  padding-bottom: 100px;
+}
+
+.flexible__text {
+  background-color: white;
+}
+
+.flexible__text-2 {
+  margin-left: 1.5rem;
+}
+
+.flexible__text-2:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  padding: 1.5rem;
+  margin-left: 0px;
+  background-color: #ffffff;
+}
+
+.flexible__text-small {
+  max-width: 340px;
+}
+
+@media only screen and(max-width:1400px) {
+  .flexible__img {
+    width: 270px;
+    height: 230px;
+  }
+}
