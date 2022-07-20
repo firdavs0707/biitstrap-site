@@ -32,9 +32,35 @@
   max-width: 340px;
 }
 
+.for-gradient-1 {
+  height: 200px;
+}
+
+.for-gradient-2 {
+  height: 340px;
+}
+
 @media only screen and(max-width:1400px) {
   .flexible__img {
     width: 270px;
     height: 230px;
+  }
+}
+
+@media only screen and(max-width:1200px) {
+  .for-gradient-1 {
+    height: 100px;
+  }
+}
+
+@media only screen and(max-width:600px) {
+  .for-gradient-1 {
+    height: 50px;
+  }
+}
+
+@media only screen and(max-width:400px) {
+  .for-gradient-1 {
+    height: 10px;
   }
 }
